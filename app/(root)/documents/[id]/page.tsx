@@ -2,9 +2,9 @@ import CollaborativeRoom from '@/components/CollaborativeRoom';
 
 const Document = () => {
   return (
-    <div>
+    <main className='flex flex-col items-center w-full'>
       <CollaborativeRoom />
-    </div>
+    </main>
   );
 };
 export default Document;
